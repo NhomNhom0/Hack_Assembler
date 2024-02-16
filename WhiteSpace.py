@@ -1,3 +1,6 @@
+# This function will read .asm file and remove all unnecessary characters 
+# (eg: empty lines/indentation, line comments, In-line comments)
+
 def WhiteSpaceHandler(path):
     try:
         strings = []
