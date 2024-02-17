@@ -10,6 +10,8 @@ def WhiteSpaceHandler(path):
             for line in file:
                 # Removing comments starting with //
                 line = line.split("//")[0].strip()
+                # Remove all whitespace characters
+                line = line.replace(" ", "")
                 # Extracting strings from the line
                 line_strings = line.split()
                 # Adding non-empty strings to the list
