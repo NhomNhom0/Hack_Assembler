@@ -22,8 +22,10 @@ for line in list:
         instructions.append(instruction)
 
 
-# Define the path
-new_path = path.replace("asm", "hack").replace(".asm", ".hack")
+# change path
+filename = os.path.basename(path)
+new_file_name = filename.replace('.asm', '.hack')
+new_path = "./hack/" + new_file_name
 
 # Create the directory if it doesn't exist
 directory = os.path.dirname(new_path)
