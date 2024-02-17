@@ -17,7 +17,8 @@ To get started with the Assembly to Hack Translator, follow these steps:
 ## 📝 Usage
 You can use the Assembly to Hack Translator by invoking the main script and providing the path to your `.asm` code file. For example:
 
-![Alt text](image.png)
+![image](https://github.com/NhomNhom0/Hack_Assembler/assets/117582310/338aa1ee-369f-4fea-9f70-cbbf71a705fc)
+
 
 The translated Hack code will be saved to a same `.hack` file in the hack directory
 
